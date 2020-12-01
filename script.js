@@ -5,31 +5,6 @@ const extra = document.getElementById("info");
 const orange = document.getElementById("orange");
 const blue = window.matchMedia("(max-width: 800px)");
 
-// race car action
-// const car = document.getElementById("car");
-// const racing = new Audio("sounds/racing.mp3");
-// var isPlaying = false;
-
-// function addSpeed() {
-//   car.classList.toggle("runner");
-//   isPlaying ? racing.pause() : racing.play();
-// }
-
-// racing.onplaying = function () {
-//   isPlaying = true;
-// };
-// racing.onpause = function () {
-//   isPlaying = false;
-// };
-
-// racing.addEventListener(
-//   "ended",
-//   function () {
-//     racing.currentTime = 0;
-//     racing.play();
-//   },
-//   false
-// );
 
 // Show and hide about info
 function show() {
@@ -74,36 +49,41 @@ function getNewCards(){
   }
 
 var bingoArray = [
-  "archery.svg",
-"badminton.svg",
-"basketball.svg",
-"boxing.svg",
-"climbing.svg",
-"cycling.svg",
-"diving.svg",
-"driving.svg",
-"football.svg",
-"golf.svg",
-"gymnastics.svg",
-"hang-gliding.svg",
-"hiking.svg",
-"hockey.svg",
-"horse-riding.svg",
-"ice-skating.svg",
-"karate.svg",
-"kayak.svg",
-"paddle-surf.svg",
-"rugby.svg",
-"running.svg",
-"sailing.svg",
+  "angel.svg",
+"bell.svg",
+"cake.svg",
+"camel.svg",
+"candle.svg",
+"candy.svg",
+"card.svg",
+"choir.svg",
+"decoration.svg",
+"elf.svg",
+"food.svg",
+"gingerbread.svg",
+"hat.svg",
+"holly.svg",
+"jumper.svg",
+"kings.svg",
+"lights.svg",
+"mitten.svg",
+"present.svg",
+"reindeer.svg",
+"sack.svg",
+"santa.svg",
+"skating.svg",
 "skiing.svg",
-"surfing.svg",
-"swimming.svg",
-"table-tennis.svg",
-"tennis.svg",
-"weight-lifting.svg",
-"windsurfing.svg",
-"yoga.svg",
+"sleigh.svg",
+"snow-globe.svg",
+"snowball.svg",
+"snowflake.svg",
+"snowman.svg",
+"star.svg",
+"stocking.svg",
+"tag.svg",
+"toys.svg",
+"wreath.svg",
+"xmas-day.svg",
 ];
 
 function shuffle(bingoArray) {
